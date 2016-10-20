@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Matchup</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="header"><strong>Celebrity Matchup</strong></h1>
+      <hr>
+      <h2>Welcome!</h2>
+      <p>Love is in the air! This is a webpage to match you with a beautiful celebrity. Answer the questons below and find out!</p>
+        <div class ="row">
+          <div class="six columns">
+              <form>
+                <label for = "nash">Pick a nationality</label>
+                  <select class = "u-full-width" id="nash">
+                  <option value = "1">American</option>
+                  <option value = "2">British</option>
+                  </select>
+                <label for = "gender">What's your gender?</label>
+                  <select class = "u-full-width" id="nash">
+                  <option value = "1">Male</option>
+                  <option value = "2">Female</option>
+                  </select>
+                <label for="age">Your age</label>
+                  <input class="u-full-width" type="age" placeholder="27" id="age">
+                <input type="submit" value="submit">
+              </form>
+          </div>
+        </div>
+          <!--Results-->
+            <div id="malek">
+              <h2>You matched with ...</h2>
+              <h4><em>Rami Malek!</em></h4>
+                <img src = "img/malek.jpg">
+            </div>
+            <div id="hardy">
+              <h2>You matched with ...</h2>
+              <h4><em>Tom Hardy!</em></h4>
+                <img src = "img/hardy.jpg">
+            </div>
+            <div id="dawson">
+              <h2>You matched with ...</h2>
+              <h4><em>Rosario Dawson!</em></h4>
+                <img src = "img/dawson.jpg">
+            </div>
+            <div id="keira">
+              <h2>You matched with ...</h2>
+              <h4><em>Keira Knightley!</em></h4>
+                <img src = "img/keira.jpg">
+            </div>
+    </div>
+  </body>
+</html>
