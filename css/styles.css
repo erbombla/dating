@@ -1,3 +1,28 @@
 .header {
   text-align: center;
 }
+
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+#malek {
+  display: none;
+}
+
+#hardy {
+  display: none;
+}
+
+#dawson {
+  display: none;
+}
+
+#keira {
+  display: none;
+}
